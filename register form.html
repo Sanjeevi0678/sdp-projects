@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body bgcolor="lightblue">
+
+    <center>
+      <form action="#" method="post">
+        <h2>Registration Form</h2>
+        <!--general info-->
+        <table>
+          <!--first name-->
+          <tr>
+       <td><label for="First Name">First Name:</label></td>
+        <td><input type="text" id="First Name" name="First Name" required /><br /></td>
+        </tr>
+        <!--lastname-->
+        <tr>
+        <td><label for="Last Name">Last Name:</label></td>
+        <td><input type="text" id="Last Name" name="Last Name" /><br /></td>
+        </tr>
+<!--email-->
+<tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required /><br /></td>
+        </tr>
+<!--gender-->
+<tr>
+       <td> <label for="gender">Gender:</label></td>
+       <td> <select select id="gender" name="gender">
+          <option value="">--Select--</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option></select
+        ><br /></td>
+        </tr>
+<!--dob-->
+<tr>
+
+        <td><label for="dob">Date of Birth:</label></td>
+       <td><input type="date" id="dob" name="dob" /><br /></td>
+</tr>
+       <!--phone-->
+       <tr>
+        <td><label for="phone">Phone Number:</label></td>
+       <td><input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="12345-67890"
+        /><br /></td>
+        </tr>
+        <!--password-->
+        <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password" required /><br /></td>
+        </tr>
+        <tr>
+        <td><label for="Confirm password">Confirm password:</label></td>
+        <td><input type="password" id="password" name="cpassword" required /><br /></td>
+        </tr>
+<tr>
+       <td><input type="submit" value="Register" /></td>
+       </tr>
+      </form>
+    </center>
+  </body>
+</html>
